@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TvOntario_AutomationTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="TvOntario_AutomationTestCases(failed)">
+    <classes>
+      <class name="tests.TestNGTests1">
+        <methods>
+          <include name="verifyPagination"/>
+          <include name="setUp"/>
+          <include name="verifyVideoLinkLaunchable"/>
+        </methods>
+      </class> <!-- tests.TestNGTests1 -->
+    </classes>
+  </test> <!-- TvOntario_AutomationTestCases(failed) -->
+</suite> <!-- Failed suite [TvOntario_AutomationTestSuite] -->

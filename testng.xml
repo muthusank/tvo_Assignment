@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="tvo_AutomationTestSuite">
+  <test thread-count="2" parallel="classes" name="tvo_AutomationTestCases">
+    <classes>
+      <class name="tests.TestNGTests1"/>
+      <class name="tests.TestNGTests2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
